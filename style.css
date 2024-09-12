@@ -1,0 +1,221 @@
+@font-face {
+    font-family: toyota;
+    src: url(./toyota\ text.woff2);
+}
+body{
+    background-color: #F2F2F2;
+    font-family: toyota;
+}
+.main>p, h1, h3, h4, h5, h6, a{
+    overflow-y: hidden;
+}
+.page-1{
+    height: 46px;
+    text-align: center;
+    overflow-y: hidden;
+    color: #fff;
+    background-color: #000;
+}
+.page-1>p{
+    margin-top: 10px;
+    font-family: toyota;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+.collapse{
+    margin-left: 140px;
+    gap: 50px;
+    position: relative;
+}
+.hov{
+    color: #EB0A1E;
+}
+.page-4-2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 1270px;
+    margin-top: 20px;
+    text-align: center;
+}
+.page-4-2>h2{
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
+    font-family: toyota;
+}
+.page-4>h1{
+    text-align: center;
+    padding-top: 50px;
+    overflow-y: hidden;
+    font-size: 36px;
+    color: #101010;
+    font-family: toyota;
+}
+#card0{
+    color: black;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-left: 23px;
+    font-family: toyota;
+    position: relative;
+    width: max-content;
+    }
+
+#card0::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    color: #EB0A1E;
+    border-radius: 10px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s ease;
+}
+#card0:hover::after{
+    width: 100%;
+    height: 2px;
+}
+#card0:hover{
+    color: #EB0A1E;
+}
+#img{
+    width: 200px;
+    height: 160px;
+}
+#cards{
+    width: 270px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.card-body{
+    transition: .6s;
+        
+}
+#cards:hover .card-body{
+    background: #EB0A1E;
+    font-weight: 500;
+}
+.card-body:hover .title{
+    text-decoration: underline;
+}
+
+*{
+    overflow-x: hidden;
+}
+.title{
+    font-size: 19px;
+    line-height: 2.5;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: toyota;
+}
+#img{
+    width: 100%;
+    height: 164px;
+}
+#main-cards-div{
+    margin-top: 100px;
+}
+.page-5{
+    height: 500px;
+}
+.page-6>h1{
+    text-align: center;
+    padding-top: 30px;
+    overflow-y: hidden;
+    font-size: 36px;
+    color: #101010;
+    font-family: toyota;
+}
+.page-6>h4{
+    text-align: center;
+    height: 60px;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: toyota;
+}
+.tit{
+    font-size: 24px;
+    font-family: toyota;
+}
+.det-2{
+    margin-top: -14px;
+    line-height: 24px;
+}
+.card-detail{
+    color: #EB0A1E;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.page-7>h1{
+    text-align: center;
+    padding-top: 110px;
+    overflow-y: hidden;
+    font-size: 36px;
+    color: #101010;
+    font-family: toyota;
+}
+.page-7>h4{
+    text-align: center;
+    height: 60px;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: toyota;
+}
+.slide-img{
+    width: 100%;
+    height: 230px;
+}
+.slider-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.slider-card-foot{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 60px;
+    bottom: 0px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    color: #101010;
+    cursor: pointer;
+    text-align: center;
+}
+.slider-card-foot:hover{
+    color: #EB0A1E;
+    border-bottom: 1px solid #EB0A1E;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+.slider-card-text{
+    color: #101010;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.card-footer{
+    background: none;
+}
